@@ -1,0 +1,76 @@
+LEV INC 0
+GO
+
+                                 FABRICATION DATA
+
+
+
+    13-Nov-22
+    New lens from CVMACRO:cvnewlens.seq
+
+    ELEMENT   RADIUS OF CURVATURE                    APERTURE DIAMETER
+    NUMBER    FRONT        BACK       THICKNESS       FRONT      BACK        GLASS
+    --------------------------------------------------------------------------------------------------
+
+    OBJECT            INF               30.0000                            AIR
+      1      INF        -281.3360 CX    29.5000     113.8149   109.2942    100.516
+                                       102.4000
+      2    112.5180 CX   -67.5110 CX    40.8000      80.7499    74.2357    100.589
+      3    -67.5110 CC   -67.5110 CX     0.0000      74.2357    74.2357    100.589
+      4    -67.5110 CC  -350.0680 CX     9.8000      74.2357    68.5880    100.648
+                                        50.0000
+                                     APERTURE STOP        50.7672
+               IMAGE DISTANCE =          0.1000
+     IMAGE            INF                                 50.7327
+
+    --------------------------------------------------------------------------------------------------
+
+     NOTES - Positive radius indicates the center of curvature is to the right
+             Negative radius indicates the center of curvature is to the left
+           - Dimensions are given in millimeters
+
+           - Thickness is axial distance to next surface
+
+           - Image diameter shown above is a paraxial value,
+             it is not a ray traced value
+
+    --------------------------------------------------------------------------------------------------
+
+    REFERENCE WAVELENGTH =        587.6 NM
+
+    SPECTRAL REGION =             486.1  -   656.3 NM
+
+    --------------------------------------------------------------------------------------------------
+
+     INFINITE CONJUGATES
+       EFL          =   679.7253
+       BFL          =   567.0936
+       FFL          =  -563.0450
+       F/NO         =    11.3288
+
+     AT USED CONJUGATES
+       REDUCTION    =    -1.2752
+       FINITE F/NO  =    -6.0204
+       OBJECT DIST  =    30.0000
+       TOTAL TRACK  =   262.6000
+       IMAGE DIST   =     0.1000
+       OAL          =   232.5000
+       PARAXIAL
+         IMAGE HT   =    76.5105
+         IMAGE DIST =  -299.6746
+       SEMI-FIELD
+         ANGLE      =    11.8372
+       ENTR PUPIL
+         DIAMETER   =    60.0000
+         DISTANCE   =   251.6820
+       EXIT PUPIL
+         DIAMETER   =    50.0579
+         DISTANCE   =     0.0000
+
+    --------------------------------------------------------------------------------------------------
+
+    NOTES - FFL is measured from the first surface
+          - BFL is measured from the last surface
+
+
+--------------------------------------------------------------------------------------------------

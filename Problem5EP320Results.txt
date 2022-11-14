@@ -1,0 +1,83 @@
+LEV INC 0
+GO
+
+    This system (including its objects) is not rotationally symmetric.
+    Clear apertures are specified with respect to the local surface center
+    and may not represent the smallest possible decentered element.
+    This system (including its objects) has left-right (x) asymmetry.
+    The bundle and aperture defining rays are only traced at the top, bottom,
+    left and right edges of the pupil for each field point.  If any of the
+    objects has both X and Y components, or if the system has gamma rotations,
+    the listed apertures may be undersized.
+
+    Determine the true clear apertures by tracing selected single rays,
+    as needed, using RSI or SIN in the LDM, or by using the FOOtprint option.
+
+                                 FABRICATION DATA
+
+
+
+    13-Nov-22
+    New lens from CVMACRO:cvnewlens.seq
+
+    ELEMENT   RADIUS OF CURVATURE                    APERTURE DIAMETER
+    NUMBER    FRONT        BACK       THICKNESS       FRONT      BACK        GLASS
+    --------------------------------------------------------------------------------------------------
+
+    OBJECT            INF              INFINITY                            AIR
+                                     APERTURE STOP       150.0783
+      1            -750.0000 CC       -280.0000          150.0783           REFL
+      2            -250.0000 CX        383.6599           43.8756           REFL
+     IMAGE            INF                                 46.2847
+
+    --------------------------------------------------------------------------------------------------
+
+     NOTES - Positive radius indicates the center of curvature is to the right
+             Negative radius indicates the center of curvature is to the left
+           - Dimensions are given in millimeters
+
+           - Thickness is axial distance to next surface
+
+           - Image diameter shown above is a paraxial value,
+             it is not a ray traced value
+
+    --------------------------------------------------------------------------------------------------
+
+    REFERENCE WAVELENGTH =        587.6 NM
+
+    SPECTRAL REGION =             486.1  -   656.3 NM
+
+    --------------------------------------------------------------------------------------------------
+
+     INFINITE CONJUGATES
+       EFL          =  1562.5000
+       BFL          =   395.8333
+       FFL          = -5062.5000
+       F/NO         =    10.4167
+
+     AT USED CONJUGATES
+       REDUCTION    =     0.0016
+       FINITE F/NO  =    10.4697
+       OBJECT DIST  =  0.100E+07
+       TOTAL TRACK  =  0.100E+07
+       IMAGE DIST   =   383.6599
+       OAL          =  -280.0000
+       PARAXIAL
+         IMAGE HT   =    16.4463
+         IMAGE DIST =   398.2872
+       SEMI-FIELD
+         ANGLE      =     0.6000
+       ENTR PUPIL
+         DIAMETER   =   150.0000
+         DISTANCE   =     0.0000
+       EXIT PUPIL
+         DIAMETER   =    46.2963
+         DISTANCE   =   -86.4198
+
+    --------------------------------------------------------------------------------------------------
+
+    NOTES - FFL is measured from the first surface
+          - BFL is measured from the last surface
+
+
+--------------------------------------------------------------------------------------------------
